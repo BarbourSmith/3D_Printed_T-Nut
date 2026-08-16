@@ -171,8 +171,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.1574074074074074,
-      "y": 0.2395543175487465,
+      "x": 0.15277777777777776,
+      "y": 0.25069637883008355,
       "uniqueID": "id-2818",
       "name": "Nut",
       "topLevel": false,
@@ -229,13 +229,14 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 6.5
+              "ioValue": 6.5,
+              "currentEquation": "6.5"
             }
           ]
         },
         {
           "atomType": "Extrude",
-          "x": 0.34338624338624335,
+          "x": 0.3353174603174603,
           "y": 0.6044568245125348,
           "uniqueID": "id-3184",
           "ioValues": [
@@ -245,7 +246,8 @@
             },
             {
               "name": "height",
-              "ioValue": 30
+              "ioValue": 20,
+              "currentEquation": "20"
             }
           ]
         },
@@ -258,7 +260,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "extrude-circle-3.25-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30",
+                "geometry": "extrude-circle-3.25-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -830,8 +832,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.32076719576719576,
-      "y": 0.12813370473537605,
+      "x": 0.3253968253968254,
+      "y": 0.11142061281337048,
       "uniqueID": "id-2928",
       "name": "Add_Clearance",
       "ioValues": [
@@ -2842,8 +2844,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.8928571428571428,
-      "y": 0.9025069637883008,
+      "x": 0.8895502645502646,
+      "y": 0.8662952646239555,
       "uniqueID": "id-3675",
       "name": "Test Case",
       "ioValues": [
@@ -2880,8 +2882,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.1283068783068783,
-          "y": 0.21727019498607245,
+          "x": 0.13359788359788358,
+          "y": 0.21448467966573817,
           "uniqueID": "id-3682",
           "ioValues": [
             {
@@ -2914,8 +2916,8 @@
         },
         {
           "atomType": "Rotate",
-          "x": 0.4305555555555555,
-          "y": 0.4874651810584958,
+          "x": 0.4074074074074074,
+          "y": 0.5487465181058496,
           "uniqueID": "id-3690",
           "ioValues": [
             {
@@ -2939,8 +2941,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.5502645502645502,
-          "y": 0.5069637883008357,
+          "x": 0.5185185185185185,
+          "y": 0.4345403899721449,
           "uniqueID": "id-3696",
           "ioValues": [
             {
@@ -2964,8 +2966,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.7182539682539683,
-          "y": 0.23676880222841226,
+          "x": 0.7294973544973544,
+          "y": 0.3175487465181059,
           "uniqueID": "id-3702",
           "ioValues": [
             {
@@ -2973,11 +2975,11 @@
               "ioValue": null
             },
             {
-              "name": "Shape 2",
+              "name": "Shape 3",
               "ioValue": null
             },
             {
-              "name": "Shape 3",
+              "name": "Shape 4",
               "ioValue": null
             }
           ]
@@ -3042,8 +3044,8 @@
         },
         {
           "atomType": "Color",
-          "x": 0.3637566137566138,
-          "y": 0.16434540389972147,
+          "x": 0.335978835978836,
+          "y": 0.5376044568245125,
           "uniqueID": "id-3724",
           "ioValues": [
             {
@@ -3055,8 +3057,8 @@
         },
         {
           "atomType": "Tag",
-          "x": 0.2916666666666667,
-          "y": 0.403899721448468,
+          "x": 0.2638888888888889,
+          "y": 0.3983286908077995,
           "uniqueID": "id-3750",
           "name": "Wood",
           "ioValues": [
@@ -3071,8 +3073,8 @@
         },
         {
           "atomType": "ExtractTag",
-          "x": 0.7804232804232805,
-          "y": 0.6880222841225626,
+          "x": 0.7923280423280423,
+          "y": 0.6601671309192201,
           "uniqueID": "id-3753",
           "name": "Extract Wood",
           "ioValues": [
@@ -3087,6 +3089,69 @@
           ],
           "includeUntagged": false,
           "notKeepOut": false
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.36177248677248675,
+          "y": 0.3008356545961003,
+          "uniqueID": "id-3783",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 50,
+              "currentEquation": "50"
+            },
+            {
+              "name": "y length",
+              "ioValue": 100,
+              "currentEquation": "100"
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.48611111111111116,
+          "y": 0.14763231197771587,
+          "uniqueID": "id-3787",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 12
+            }
+          ]
+        },
+        {
+          "atomType": "Color",
+          "x": 0.548941798941799,
+          "y": 0.2116991643454039,
+          "uniqueID": "id-3791",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "selectedColor": "Clay"
+        },
+        {
+          "atomType": "Tag",
+          "x": 0.6448412698412699,
+          "y": 0.11142061281337048,
+          "uniqueID": "id-3795",
+          "name": "Wood",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tags": [
+            "Wood"
+          ]
         }
       ],
       "allConnectors": [
@@ -3094,6 +3159,11 @@
           "ap2Name": "y length",
           "ap1ID": "id-3679",
           "ap2ID": "id-3682"
+        },
+        {
+          "ap2Name": "height",
+          "ap1ID": "id-3679",
+          "ap2ID": "id-3787"
         },
         {
           "ap2Name": "geometry",
@@ -3136,7 +3206,7 @@
           "ap2ID": "id-3717"
         },
         {
-          "ap2Name": "Shape 3",
+          "ap2Name": "Shape 4",
           "ap1ID": "id-3717",
           "ap2ID": "id-3702"
         },
@@ -3146,14 +3216,29 @@
           "ap2ID": "id-3690"
         },
         {
-          "ap2Name": "Shape 2",
-          "ap1ID": "id-3724",
-          "ap2ID": "id-3702"
-        },
-        {
           "ap2Name": "geometry",
           "ap1ID": "id-3750",
           "ap2ID": "id-3724"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-3783",
+          "ap2ID": "id-3787"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-3787",
+          "ap2ID": "id-3791"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-3791",
+          "ap2ID": "id-3795"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-3795",
+          "ap2ID": "id-3702"
         }
       ],
       "fileTypeVersion": 1
