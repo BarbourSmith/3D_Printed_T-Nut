@@ -2,7 +2,7 @@
 
 # 3D_Printed_T-Nut
 
-![](/project.svg)
+![](/project.png)
 
 ## Inputs
 
